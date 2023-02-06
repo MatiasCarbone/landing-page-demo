@@ -1,11 +1,3 @@
-/* Border for all elements. Must delete. */
-* {
-    border: 1px solid red;
-}
-
-/*Import and apply Roboto Font*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 :root {
     --max-width: 1000px;
 }
@@ -40,6 +32,42 @@ body {
     color: #f9faf8;
 }
 
+.info-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.illustration-subtext {
+    text-align: center;
+    color: #606975;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.banner-title {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.banner-sub {
+    font-size: 16px;
+    font-weight: 300;
+    color: #f9faf8;
+}
+
 /*Header*/
 .header,
 .nav-links {
@@ -59,6 +87,8 @@ body {
 .wrapper{
     /* getting rid of undesired margin */
     margin: -8px; 
+    margin-bottom: 0px;
+    padding-bottom: 20px;
 }
 
 /* Hero */
@@ -70,7 +100,7 @@ body {
     align-items: flex-start;
 
     max-width: var(--max-width);
-    margin: 100px auto;
+    margin: 80px auto;
 }
 
 .left-wrap {
@@ -102,4 +132,93 @@ body {
     justify-content: center;
 
     flex: 0 2 500px;
+}
+
+/* Info section */
+
+.horizontal-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.illustration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-bottom: 80px;
+}
+
+/* To be removed */
+.illustration-placeholder{
+    border: 5px solid #3882f6;
+    border-radius: 18px;
+    width: 160px;
+    height: 160px;
+
+    flex: 0 0 auto;
+}
+
+.info-header {
+    text-align: center;
+    padding: 40px;
+}
+
+.illustration-subtext {
+    max-width: 170px;
+    margin-top: 5px;
+}
+
+.info {
+    background-color: #f9faf8;
+    margin-top: 0px;
+
+    overflow: auto;
+}
+
+/* Quote section */
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-author {
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 3px;
+}
+
+.q-wrapper {
+    max-width: 780px;
+    margin: 0px auto;
+    padding: 100px 0px;
+}
+
+/* Sign up banner */
+.variation {
+    border: 2px solid #f9faf8;
+    height: 35px;
+    margin-top: unset;
+    align-content: center;
+}
+
+.banner {
+    background-color: #3882f6;
+    padding: 30px 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 750px;
+    margin: 80px auto;
+    border-radius: 12px;
+}
+
+.banner-title {
+    margin-bottom: -15px;
+    margin-top: 15px;
 }
