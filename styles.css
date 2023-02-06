@@ -8,7 +8,7 @@ body {
 
 /* Set font tweaks and element colors */
 .dark {
-    background-color: #1f2937;
+    background-color: #322825;
 }
 
 .hero-main {
@@ -112,7 +112,7 @@ body {
 }
 
 .blue-button {
-    background-color: #3882f6;
+    background-color: #f56738;
     color: #f9faf8;
     font-weight: 800;
     padding: 6px 24px;
@@ -123,7 +123,7 @@ body {
 
 /* To be removed */
 .img-placeholder {
-    background-color: #e5e7eb70;
+    background-color: #EBE7E570;
     color: #f9faf8;
     width: 500px;
     height: 228px;
@@ -155,7 +155,7 @@ body {
 
 /* To be removed */
 .illustration-placeholder{
-    border: 5px solid #3882f6;
+    border: 5px solid #f56738;
     border-radius: 18px;
     width: 160px;
     height: 160px;
@@ -181,7 +181,7 @@ body {
 
 /* Quote section */
 .quote {
-    background-color: #e5e7eb;
+    background-color: #EBE7E5;
 }
 
 .quote-author {
@@ -205,7 +205,7 @@ body {
 }
 
 .banner {
-    background-color: #3882f6;
+    background-color: #f56738;
     padding: 30px 100px;
 
     display: flex;
