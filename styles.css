@@ -1,8 +1,13 @@
+/*Border for all elements. Must delete.*/
+* {
+    /* border: 1px solid red; */
+}
+
 /*Import and apply Roboto Font*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-    font-style: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*Set font styles and element colors*/
@@ -28,3 +33,24 @@ body {
     color: #f9faf8;
 }
 
+/*Header*/
+
+.header,
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.header {
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.wrapper{
+    /* getting rid of undesired margin */
+    margin: -8px; 
+}
